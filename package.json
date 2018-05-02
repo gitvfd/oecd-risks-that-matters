@@ -1,0 +1,15 @@
+{
+  "name": "quizz-surveyjs-nodejs",
+  "version": "0.0.1",
+  "description": "Sample NodeJS backend for Social Policy Quizz",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16",
+    "socket.io": "^2.1.0"
+  }
+}
