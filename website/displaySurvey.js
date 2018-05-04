@@ -1,4 +1,6 @@
 function displaySurvey(result){
+
+   svg = d3.select("#map").append("svg").attr("width",width + margin.left + margin.right).attr("height",height + margin.top + margin.bottom)
   userResult=JSON.parse(result);
 	var scaleFactor=4.5;
 
@@ -71,7 +73,7 @@ function displaySurvey(result){
 
          //Draw the bubble size legend
         if (!mobileScreen) {
-        bubbleLegend(bubbleSizeLegend, rScale, legendSizes = [minLeg,(minLeg+maxLeg)/2,maxLeg], legendName = "Legend");  
+        bubbleLegend(bubbleSizeLegend, rScale, legendSizes = [10,40,80], legendName = "Legend");  
         }//if !mobileScreen
         else {
           d3.select("#legend").style("display","none");
