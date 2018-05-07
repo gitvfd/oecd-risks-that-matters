@@ -98,7 +98,7 @@ h5 {
 /* The actual popup */
 .popup .popuptext {
     visibility: hidden;
-    width: ;
+    width: auto ;
     background-color: #8EA4B1;
     color: #fff;
     text-align: left;
